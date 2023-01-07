@@ -9,45 +9,61 @@
     <link rel="icon" href="./img/svg/favicon.svg">
 </head>
 <body>
-    <header class="header">
-        <div class="wrapper">
-            <div class="header__wrapper">
-                <div class="header__logo">
-                    <a href="#!" class="header__logo-link">
-                        <img src="./img/logo.png" alt="Productly" class="header__logo-link_pic">
-                    </a>
+    <div class="wrapper">
+        <header class="header">        
+                <div class="header__wrapper">
+                    <div class="header__logo">
+                        <a href="#!" class="header__logo-link">
+                            <img src="./img/logo.png" alt="Productly" class="header__logo-link_pic">
+                        </a>
+                    </div>
+                    <!-- /logo -->
+
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__list-item">
+                                <a href="#!" class="header__list-item_link active__link">Product</a>
+                            </li>
+                            <li class="header__list-item"><a href="#!" class="header__list-item_link">Customers</a></li>
+                            <li class="header__list-item"><a href="#!" class="header__list-item_link">Pricing</a></li>
+                            <li class="header__list-item"><a href="#!" class="header__list-item_link">Resources</a></li>
+                        </ul>
+                    </nav>
+                    <!-- /header__nav -->
+
+                    <div class="button">
+                        <button class="button__header-btn">Sign In</button>
+                        <button class="button__header-btn">Sing Up</button>
+                    </div>
                 </div>
-                <!-- /logo -->
+                <!-- /header__wrapper -->
+        </header>
 
-                <nav class="header__nav">
-                    <ul class="header__list">
-                        <li class="header__list-item">
-                            <a href="#!" class="header__list-item_link active__link">Product</a>
-                        </li>
-                        <li class="header__list-item"><a href="#!" class="header__list-item_link">Customers</a></li>
-                        <li class="header__list-item"><a href="#!" class="header__list-item_link">Pricing</a></li>
-                        <li class="header__list-item"><a href="#!" class="header__list-item_link">Resources</a></li>
-                    </ul>
-                </nav>
-                <!-- /header__nav -->
+        <main class="main">
+            <section class="intro">
+                <div class="intro__wrapper">
+                    <div class="intro__text">
+                        <h1 class="intro__text-title">The Design Thinking superpowers</h1>
 
-                <div class="button">
-                    <button class="button__header-btn">Sign In</button>
-                    <button class="button__header-btn">Sing Up</button>
+                        <p class="intro__text-desc">
+                            Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your next user experience.
+                        </p>
+
+                        <button class="btn">Get started</button>
+                    </div>
+                    <!-- /intro__text -->
+
+                    <div class="intro__pic">
+                        <img src="./img/intro__img.jpg" alt="The Design Thinking superpowers" class="intro__pic-img">
+                    </div>
+                    <!-- /intro__pic -->
                 </div>
-            </div>
-            <!-- /header__wrapper -->
-        </div>
-        <!-- /wrapper -->
-    </header>
-
-    <main class="main">
-        <section class="block1">
-            <div class="wrapper">
-
-            </div>
-    </section>
-    <!-- /block1 -->
-    </main>
+                <!-- /intro__wrapper -->
+            </section>
+            <!-- /intro -->
+        </main>
+        <!-- /main -->
+    </div>
+    <!-- /wrapper -->
 </body>
 </html>
