@@ -399,6 +399,7 @@ h2 {
 h3 {
     font-weight: 700;
     font-size: 20px;
+    line-height: 30px;
     color: #2F281E;
 }
 
@@ -417,10 +418,11 @@ span {
 
 .header__wrapper {
     width: 1200px;
-    margin: 17px 120px 94px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 auto 77px;
+    height: 80px;
 }
 
 
@@ -475,11 +477,11 @@ span {
 
 /* header end */
 
+
 /* intro start */
 
 .intro__wrapper {
     width: 1200px;
-    margin: 0 120px 0 120px;
     margin-bottom: 93px;
     display: flex;
 }
@@ -529,12 +531,12 @@ span {
 .tools {
     background: url(./img/tools__bg.jpg) no-repeat bottom;
     margin-bottom: 103px;
+    background-size: cover;
 }
 
 .tools__wrapper {
     width: 1200px;
     height: 510px;
-    margin: 0 120px 100px 120px;
 }
 
 .tools__title {
@@ -549,15 +551,12 @@ span {
 
 .tools__lists {
     display: flex;
+    justify-content: space-between;
     margin-bottom: 70px;
 }
 
 .tools__list {
-    margin-right: 40px;
-}
-
-.tools__list:last-child {
-    margin-right: 0;
+    width: 270px;
 }
 
 .tools__pic {
@@ -591,7 +590,6 @@ span {
 
 .desc__wrapper {
     width: 1200px;
-    margin: 0 120px 100px 120px;
 }
 
 .desc__block {
@@ -651,9 +649,8 @@ span {
 .footer__block {
     width: 1200px;
     display: flex;
-    
+    margin: 70px auto;
     justify-content: space-between;
-    margin: 70px 120px 70px 120px;
 }
 
 .footer__block-logo {
@@ -688,6 +685,11 @@ span {
     margin-bottom: 0;
 }
 
+.footer__block-menu_links {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    }
 
 .footer__block-menu_links:hover {
     opacity: .65;
@@ -703,6 +705,10 @@ span {
 }
 
 .footer__block-sign_input {
+    width: 340px;
+    height: 50px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
     margin-bottom: 25px;
 }
 
