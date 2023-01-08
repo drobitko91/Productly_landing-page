@@ -390,11 +390,31 @@ html {
     margin: 0 auto;
 }
 
+h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2F281E;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+}
+
+span {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837
+}
 /* header start */
 
 .header__wrapper {
     width: 1200px;
-    margin: 17px 0 70px;
+    margin: 17px 120px 94px 120px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -456,6 +476,7 @@ html {
 
 .intro__wrapper {
     width: 1200px;
+    margin: 0 120px 0 120px;
     margin-bottom: 93px;
     display: flex;
 }
@@ -498,3 +519,103 @@ html {
 }
 
 /* intro end */
+
+
+/* tools start */
+
+.tools {
+    background: url(./img/tools__bg.jpg) no-repeat bottom;
+    margin-bottom: 103px;
+}
+
+.tools__wrapper {
+    width: 1200px;
+    height: 510px;
+    margin: 0 120px 100px 120px;
+}
+
+.tools__title {
+    width: 539px;
+    margin: 0 auto;
+}
+
+.tools__title-style {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tools__lists {
+    display: flex;
+    margin-bottom: 70px;
+}
+
+.tools__list {
+    margin-right: 40px;
+}
+
+.tools__list:last-child {
+    margin-right: 0;
+}
+
+.tools__pic {
+    margin-bottom: 30px;
+}
+
+.tools__name {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2F281E;
+    margin-bottom: 16px;
+}
+
+.tools__desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837
+}
+
+.tools__btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 74px;
+}
+/* tools end */
+
+
+/* desc start */
+
+.desc__wrapper {
+    width: 1200px;
+    margin: 0 120px 100px 120px;
+}
+
+.desc__benefits {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.desc__benefits-text {
+    margin-right: 130px;
+}
+
+.desc__benefits-text_title {
+    margin-bottom: 20px;
+}
+
+.desc__benefits-text_info {
+    text-align: left;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #544837
+}
+
+.desc__benefits-text_sm-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* desc ens */
