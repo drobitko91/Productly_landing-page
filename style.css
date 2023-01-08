@@ -393,21 +393,24 @@ html {
 h2 {
     font-weight: 700;
     font-size: 36px;
-    line-height: 44px;
+    color: #2F281E;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 20px;
     color: #2F281E;
 }
 
 h4 {
     font-weight: 700;
     font-size: 16px;
-    line-height: 26px;
     color: #2F281E;
 }
 
 span {
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
     color: #544837
 }
 /* header start */
@@ -637,3 +640,70 @@ span {
     margin-right: 30px;
 }
 /* desc ens */
+
+
+/* footer start */
+
+.footer {
+    border-top: rgba(188, 208, 229, 0.496913) 1px solid;
+}
+
+.footer__block {
+    width: 1200px;
+    display: flex;
+    
+    justify-content: space-between;
+    margin: 70px 120px 70px 120px;
+}
+
+.footer__block-logo {
+    margin-right: 130px;
+}
+
+.footer__block-menu {
+    display: flex;
+}
+
+.footer__block-menu_list {
+    margin-right: 130px;
+}
+
+.footer__block-menu_links {
+    width: 135px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #544837;
+    text-decoration: none;
+    
+}
+
+.footer__block-menu_title {
+    margin-bottom: 30px;
+}
+
+.footer__menu-list {
+    margin-bottom: 15px;
+}
+.footer__menu-list:last-child {
+    margin-bottom: 0;
+}
+
+
+.footer__block-menu_links:hover {
+    opacity: .65;
+}
+
+.footer__block-sign {
+    width: 340px;
+}
+
+.footer__block-sign_title {
+    margin-bottom: 25px;
+    line-height: 30px;
+}
+
+.footer__block-sign_input {
+    margin-bottom: 25px;
+}
+
+/* footer end  */
